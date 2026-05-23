@@ -1,0 +1,6 @@
+{
+  "name": "Men's Fashion E-Commerce",
+  "description": "An elegant, minimalist men's clothing store inspired by Spanish fashion brands, featuring a smooth catalog, Cash on Delivery checkouts, WhatsApp integration, and a comprehensive admin panel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
