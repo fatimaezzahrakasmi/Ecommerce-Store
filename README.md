@@ -31,14 +31,13 @@ npm install
 
 ### 3. Database Setup (Supabase)
 1. Create a free project on [Supabase](https://supabase.com).
-2. Go to the **SQL Editor** in your Supabase dashboard.
-3. Copy the contents of `supabase_schema.sql` (found in the root of this project) and run it in the editor. This will instantly build your tables and insert dummy products.
+
 
 ### 4. Environment Variables
-Create a `.env` file in the root of the project (if it doesn't already exist) and add your Supabase keys:
+Create a `.env` file in the root of the project and add your Supabase keys:
 
 ```env
-NEXT_PUBLIC_SUPABASE_URL=https://your-project-url.supabase.co
+NEXT_PUBLIC_SUPABASE_URL=URL
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-public-key
 ```
 
@@ -48,10 +47,6 @@ npm run dev
 ```
 Open [http://localhost:3000](http://localhost:3000) in your browser to see the result!
 
-## 🔐 Admin Access
-To access the hidden dashboard:
-1. Navigate to `/admin` in your browser.
-2. Enter the secure PIN (`2026`).
 
 ## 🚀 Deployment
 This project is fully optimized to be deployed instantly on [Vercel](https://vercel.com). Simply push the repository to GitHub and connect it to a new Vercel project for a free, high-speed global deployment.
