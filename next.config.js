@@ -8,13 +8,24 @@ const nextConfig = {
       },
       {
         protocol: 'https',
-        hostname: '**.supabase.co',
+        hostname: 'ttirxpcvjqkcikcetrqx.supabase.co',
       },
     ],
   },
   typescript: {
     // Strict mode enabled in tsconfig.json
     tsconfigPath: './tsconfig.json',
+  },
+  async headers() {
+    return [
+      {
+        source: '/:path*',
+        headers: [
+          { key: 'X-Frame-Options', value: 'DENY' },
+          { key: 'X-Content-Type-Options', value: 'nosniff' },
+        ],
+      },
+    ];
   },
 };
 

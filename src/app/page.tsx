@@ -118,7 +118,6 @@ Please let me know if it's available for Tangier delivery. Shukran!`;
             <ProductCard
               key={product.id}
               product={product}
-              onViewDetails={() => {}}
               onAddToCartDirect={addToCart}
               onWhatsAppInquireDirect={triggerWhatsAppInquiry}
             />
@@ -140,7 +139,6 @@ Please let me know if it's available for Tangier delivery. Shukran!`;
             <ProductCard
               key={product.id}
               product={product}
-              onViewDetails={() => {}}
               onAddToCartDirect={addToCart}
               onWhatsAppInquireDirect={triggerWhatsAppInquiry}
             />
